@@ -5,131 +5,140 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/styles.css" rel="stylesheet" />
   </head>
   <body>
     <header>
-      <a href="/">WebStudio</a>
-      <nav>
+      <a href="/" class="logo"><span class="logo-blue">Web</span>Studio</a>
+      <nav class="main-navigation">
         <a href="index.html">Agencja</a>
         <a href="portfolio.html">Portfolio </a>
-        Kontakt
+        <a href="/">Kontakt</a>
       </nav>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+48111111111">+48 111 111 111</a>
+      <a href="mailto:info@devstudio.com" class="contact-information"
+        >info@devstudio.com</a
+      >
+      <a href="tel:+48111111111" class="contact-information">+48 111 111 111</a>
     </header>
     <main>
       <div class="filters">
-        <button type="button">Wszystkie</button>
-        <button type="button">Strony</button>
-        <button type="button">Aplikacje</button>
-        <button type="button">Dizajn</button>
-        <button type="button">Marketing</button>
+        <button type="button" class="filter-button">Wszystkie</button>
+        <button type="button" class="filter-button">Strony</button>
+        <button type="button" class="filter-button">Aplikacje</button>
+        <button type="button" class="filter-button">Dizajn</button>
+        <button type="button" class="filter-button">Marketing</button>
       </div>
       <section>
-        <figure class="projekt">
+        <figure>
           <img
             src="images/portfolio-img1.jpg"
             alt="strona internetowa Technocrack"
             width="370"
             height="294"
           />
-          <figcaption>
+          <figcaption class="projekt-ttitle">
             Technocrack
-            <p>strona internetowa</p>
+            <p class="project-category">strona internetowa</p>
           </figcaption>
         </figure>
-        <figure class="projekt">
+        <figure>
           <img
             src="images/portfolio-img2.jpg"
             alt="dizajn grafiki sportowej"
             width="370"
             height="294"
           />
-          <figcaption>
+          <figcaption class="projekt-ttitle">
             Grafika New Orleans vs Golden Star
             <p>Dizajn</p>
           </figcaption>
         </figure>
-        <figure class="projekt">
+        <figure>
           <img
             src="images/portfolio-img3.jpg"
             alt="logo aplikacji restauracji Seafood"
             width="370"
             height="294"
           />
-          <figcaption>
+          <figcaption class="projekt-ttitle">
             Restauracja Seafood
             <p>Aplikacja</p>
           </figcaption>
         </figure>
-        <figure class="projekt">
+        <figure>
           <img
             src="images/portfolio-img4.jpg"
             alt="słuchawki"
             width="370"
             height="294"
           />
-          <figcaption>
+          <figcaption class="projekt-ttitle">
             Projekt Prime
             <p>Marketing</p>
           </figcaption>
         </figure>
-        <figure class="projekt">
+        <figure>
           <img
             src="images/portfolio-img5.jpg"
             alt="kartony"
             width="370"
             height="294"
           />
-          <figcaption>
+          <figcaption class="projekt-ttitle">
             Projekt Boxes
             <p>Aplikacja</p>
           </figcaption>
         </figure>
-        <figure class="projekt">
+        <figure>
           <img
             src="images/portfolio-img6.jpg"
             alt="komputer"
             width="370"
             height="294"
           />
-          <figcaption>
+          <figcaption class="projekt-ttitle">
             Inspiration has no Borders
             <p>Strona internetowa</p>
           </figcaption>
         </figure>
-        <figure class="projekt">
+        <figure>
           <img
             src="images/portfolio-img7.jpg"
             alt="magazyn otwarty na stronie 22-23"
             width="370"
             height="294"
           />
-          <figcaption>
+          <figcaption class="projekt-ttitle">
             Magazyn Limited Edition
             <p>Dizajn</p>
           </figcaption>
         </figure>
-        <figure class="projekt">
+        <figure>
           <img
             src="images/portfolio-img8.jpg"
             alt="metka"
             width="370"
             height="294"
           />
-          <figcaption>
+          <figcaption class="projekt-ttitle">
             Projekt LAB
             <p>Marketing</p>
           </figcaption>
         </figure>
-        <figure class="projekt">
+        <figure>
           <img
             src="images/portfolio-img9.jpg"
             alt="komputer z otwartą aplikacją Growing Business"
             width="370"
             height="294"
           />
-          <figcaption>
+          <figcaption class="projekt-ttitle">
             Growing Business
             <p>Aplikacja</p>
           </figcaption>
@@ -137,11 +146,15 @@
       </section>
     </main>
     <footer>
-      <a href="/">WebStudio</a>
+      <a href="/" class="logo"><span class="logo-blue">Web</span>Studio</a>
       <address>
-        m. Warszawa, Aleje Jerozolimskie 21
-        <p><a href="mailto:info@devstudio.com">info@devstudio.com</a></p>
-        <p><a href="tel:+48111111111">+48 111 111 111</a></p>
+        <p class="street-name">m. Warszawa, Aleje Jerozolimskie 21</p>
+        <p class="footer-contact-information">
+          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </p>
+        <p class="footer-contact-information">
+          <a href="tel:+48111111111">+48 111 111 111</a>
+        </p>
       </address>
     </footer>
   </body>
