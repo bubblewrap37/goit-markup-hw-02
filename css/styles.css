@@ -49,6 +49,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 188%;
+  cursor: pointer;
 }
 
 .article-title {
@@ -76,6 +77,7 @@ body {
   font-size: 16px;
   line-height: 162%;
   background: #f5f4fa;
+  cursor: pointer;
 }
 .filter-button:hover {
   background: #2196f3;
