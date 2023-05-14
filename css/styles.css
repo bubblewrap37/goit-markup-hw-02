@@ -24,7 +24,8 @@ body {
   color: #212121;
 }
 
-.main-navigation a:hover {
+.main-navigation a:hover,
+.main-navigation a:focus {
   color: #2196f3;
 }
 .contact-information {
@@ -33,7 +34,8 @@ body {
   text-decoration: none;
   color: #757575;
 }
-.contact-information:hover {
+.contact-information:hover,
+.contact-information:focus {
   color: #2196f3;
 }
 .slogan {
@@ -79,7 +81,8 @@ body {
   background: #f5f4fa;
   cursor: pointer;
 }
-.filter-button:hover {
+.filter-button:hover,
+.filter-button:focus {
   background: #2196f3;
   color: white;
 }
