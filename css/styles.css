@@ -64,6 +64,11 @@ body {
   cursor: pointer;
 }
 
+.order-button:hover {
+  color: var(--main-font-color);
+  background-color: var(--grey-background);
+}
+
 .article-title {
   font-size: 14px;
 }
