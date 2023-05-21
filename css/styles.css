@@ -1,6 +1,16 @@
+:root {
+  --brand-dark-blue: #2f303a;
+  --brand-light-blue: #2196f3;
+  --main-font-color: #212121;
+  --secondary-font-color: #757575;
+  --white: #ffffff;
+  --grey-background: #f5f4fa;
+  --white-faded: rgba(255, 255, 255, 0.6);
+}
+
 body {
   font-family: "Roboto", sans-serif;
-  color: #212121;
+  color: var(--main-font-color);
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -9,7 +19,7 @@ body {
   font-size: 26px;
 }
 .logo-blue {
-  color: #2196f3;
+  color: var(--brand-light-blue);
 }
 .main-navigation {
   font-weight: 500;
@@ -17,37 +27,37 @@ body {
 }
 .main-navigation a {
   text-decoration: none;
-  color: #212121;
+  color: var(--main-font-color);
 }
 
 .main-navigation a:visited {
-  color: #212121;
+  color: var(--main-font-color);
 }
 
 .main-navigation a:hover,
 .main-navigation a:focus {
-  color: #2196f3;
+  color: var(--brand-light-blue);
 }
 .contact-information {
   font-weight: 500;
   font-size: 14px;
   text-decoration: none;
-  color: #757575;
+  color: var(--main-font-color);
 }
 .contact-information:hover,
 .contact-information:focus {
-  color: #2196f3;
+  color: var(--brand-light-blue);
 }
 .slogan {
-  color: #ffffff;
-  background: #2f303a;
+  color: var(--white);
+  background: var(--brand-dark-blue);
   font-weight: 900;
   font-size: 44px;
   line-height: 136%;
 }
 .order-button {
-  background: #2196f3;
-  color: #ffffff;
+  background: var(--brand-light-blue);
+  color: var(--white);
   font-weight: 700;
   font-size: 16px;
   line-height: 188%;
@@ -60,7 +70,7 @@ body {
 .article-description {
   font-size: 14px;
   line-height: 171%;
-  color: #757575;
+  color: var(--secondary-font-color);
 }
 .section-title {
   font-size: 36px;
@@ -71,34 +81,34 @@ body {
 }
 .position-name {
   font-size: 16px;
-  color: #757575;
+  color: var(--secondary-font-color);
 }
 
 .filter-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 162%;
-  background: #f5f4fa;
+  background: var(--grey-background);
   cursor: pointer;
 }
 .filter-button:hover,
 .filter-button:focus {
-  background: #2196f3;
-  color: white;
+  background: var(--brand-light-blue);
+  color: var(--white);
 }
 
 .street-name {
-  color: #ffffff;
-  background: #2f303a;
+  color: var(--white);
+  background: var(--brand-dark-blue);
   font-size: 14px;
   line-height: 171%;
 }
 .footer-contact-information a {
   text-decoration: none;
-  background: #2f303a;
+  background: var(--brand-dark-blue);
   font-size: 14px;
   line-height: 171%;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--white-faded);
 }
 .project-title {
   font-weight: 700;
@@ -106,7 +116,7 @@ body {
   line-height: 200%s;
 }
 .project-category {
-  color: #757575;
+  color: var(--secondary-font-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 188%;
